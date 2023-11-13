@@ -10,6 +10,10 @@
 <meta charset="UTF-8">
 <title>navBar</title>
 
+
+<link href="<c:url value='/resources/css/nav.css'/>" rel="stylesheet"
+	type="text/css">
+
 </head>
 <body>
 

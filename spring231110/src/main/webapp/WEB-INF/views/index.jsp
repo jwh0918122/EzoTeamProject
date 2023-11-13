@@ -19,10 +19,6 @@
 
 <!-- css 관련 설정-->
 
-
-<link href="<c:url value='/resources/css/nav.css'/>" rel="stylesheet"
-	type="text/css">
-
 <link href="<c:url value='/resources/css/r_side.css'/>" rel="stylesheet"
 	type="text/css">
 
