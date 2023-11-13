@@ -228,13 +228,13 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_9fb354H0Ee6JRLHv1Lzz5Q" elementId="org.eclipse.ui.editorss" selectedElement="_9fb39oH0Ee6JRLHv1Lzz5Q">
-      <children xsi:type="basic:PartStack" xmi:id="_9fb39oH0Ee6JRLHv1Lzz5Q" elementId="PartStack@5f2572ba" selectedElement="_D6HG8IICEe69r7pnLer5BQ">
+      <children xsi:type="basic:PartStack" xmi:id="_9fb39oH0Ee6JRLHv1Lzz5Q" elementId="PartStack@5f2572ba" selectedElement="_5mxZcIICEe6zTctJA7jHJg">
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_D6HG8IICEe69r7pnLer5BQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="spring231110/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;spring231110/pom.xml&quot; title=&quot;spring231110/pom.xml&quot; tooltip=&quot;spring231110/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/spring231110/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_5mxZcIICEe6zTctJA7jHJg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="nav.jsp" iconURI="platform:/plugin/org.eclipse.jst.jsp.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jst.jsp.core.jspsource.source&quot; name=&quot;nav.jsp&quot; partName=&quot;nav.jsp&quot; title=&quot;nav.jsp&quot; tooltip=&quot;spring231110/src/main/webapp/WEB-INF/views/common/nav.jsp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/spring231110/src/main/webapp/WEB-INF/views/common/nav.jsp&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
-          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
+          <tags>org.eclipse.jst.jsp.core.jspsource.source</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
@@ -276,6 +276,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Server</tags>
+      <tags>highlighted</tags>
       <menus xmi:id="_9fb4c4H0Ee6JRLHv1Lzz5Q" elementId="org.eclipse.wst.server.ui.ServersView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -421,7 +422,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fb4t4H0Ee6JRLHv1Lzz5Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_F8Ha8IICEe6QfoJBtd5VQQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_9fdGJoH0Ee6JRLHv1Lzz5Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-ULjx4ICEe6Ar6pBq6L8rw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_9fdGJoH0Ee6JRLHv1Lzz5Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fb4xIH0Ee6JRLHv1Lzz5Q" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -455,7 +456,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fb5FYH0Ee6JRLHv1Lzz5Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_F8Ha_YICEe6QfoJBtd5VQQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_9fdF14H0Ee6JRLHv1Lzz5Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-ULj1IICEe6Ar6pBq6L8rw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_9fdF14H0Ee6JRLHv1Lzz5Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9fb5IoH0Ee6JRLHv1Lzz5Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
