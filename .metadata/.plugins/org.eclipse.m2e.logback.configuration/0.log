@@ -204,6 +204,9 @@
 2023-11-13 15:42:46,322 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-13 15:42:46,322 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 <<<<<<< HEAD
+2023-11-13 16:55:27,051 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+=======
+<<<<<<< HEAD
 2023-11-13 17:06:01,763 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 =======
 2023-11-13 17:04:01,148 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
@@ -369,6 +372,9 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:936)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 >>>>>>> 36189d996eef3046534c5edcc31f74d082a53531
+<<<<<<< HEAD
+>>>>>>> 03f8dfc94b566c477bd2d91c2ad113a81c5a232d
+=======
 2023-11-13 20:53:33,544 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-11-13 20:53:40,776 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.myweb:www:1.0.0-BUILD-SNAPSHOT @ D:\_spring_workspace\Final Project\spring231110\pom.xml.
 2023-11-13 20:53:40,980 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32
@@ -590,3 +596,4 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2023-11-13 21:36:02,288 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-11-13 21:36:02,288 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-11-13 21:36:02,289 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+>>>>>>> 33a5ec35c43d043e048014341df092b97f07dccf

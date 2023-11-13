@@ -102,6 +102,8 @@
 		<item value="org.springsource.sts.package:3.9.18.202109140905-RELEASE-e421"/>
 		<item value="org.springsource.sts:3.9.18.202109140905-RELEASE"/>
 	</list>
+<<<<<<< HEAD
+=======
 	<section name="ChooseWorkspaceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="647"/>
 		<item key="DIALOG_Y_ORIGIN" value="337"/>
@@ -127,4 +129,5 @@
 	</section>
 	<section name="ExternalProjectImportWizard">
 	</section>
+>>>>>>> 03f8dfc94b566c477bd2d91c2ad113a81c5a232d
 </section>
