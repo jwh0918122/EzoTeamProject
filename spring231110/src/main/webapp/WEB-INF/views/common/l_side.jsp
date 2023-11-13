@@ -1,15 +1,33 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+
+    
+    <%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ taglib uri="http://www.springframework.org/security/tags"
+	prefix="sec"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="<c:url value='/resources/css/l_side.css'/>" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<!--오른쪽 사이드 메뉴  -->
-	<div class="right_sidemenu_div">
-		<ul class="right_sidemenu">
+<!--왼쪽 사이드 메뉴  -->
+	<div class="left_sidemenu_div">
+	
+	
+		<ul class="left_sidemenu">
+		
+		
+			<li>
+			<div class="pro_img">
+			<img alt="프로필 사진 없음" src="">
+			
+			</div>
+			</li>
 			<li><a href="#" class="">예약</a>
 				<div class="toggle-btn">&#9776; Open</div>
 
