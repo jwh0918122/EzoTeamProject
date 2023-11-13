@@ -1,14 +1,23 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<title>Footer Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>footer</title>
+
+<link href="<c:url value='/resources/css/r_side.css'/>" rel="stylesheet"
+	type="text/css">
 </head>
+
 <body>
-<div>
-<p>2023  Ezen Academy. Inc</p>
-</div>
+
+
+	<footer>
+		<p>&copy; 2023 Your Company. All Rights Reserved.</p>
+		
+	</footer>
+
 </body>
+
 </html>

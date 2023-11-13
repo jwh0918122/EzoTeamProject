@@ -1,5 +1,14 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: EZENIC-163
 Build-Jdk: 11.0.18
+=======
+<<<<<<< HEAD
+Built-By: EZENIC-164
+=======
+Built-By: EZENIC-165
+>>>>>>> 36189d996eef3046534c5edcc31f74d082a53531
+Build-Jdk: 11.0.19
+>>>>>>> 03f8dfc94b566c477bd2d91c2ad113a81c5a232d
 Created-By: Maven Integration for Eclipse
 

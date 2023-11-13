@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <aop-reference-model/>
+=======
+<aop-reference-model>
+<aop-project name="spring231110"/>
+</aop-reference-model>
+>>>>>>> 03f8dfc94b566c477bd2d91c2ad113a81c5a232d
