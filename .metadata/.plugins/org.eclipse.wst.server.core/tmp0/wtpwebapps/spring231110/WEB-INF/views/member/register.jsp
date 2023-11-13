@@ -16,16 +16,12 @@
 <form action="/member/register" method="post">
 	<h4 class="mb-3">Input your Information</h4>
 	<div class="mb-3">
-	  <label for="e" class="form-label">email</label>
-	  <input type="email" class="form-control" name="email" id="e" placeholder="example@example.com">
+	  <label for="e" class="form-label">ID</label>
+	  <input type="text" class="form-control" name="id" id="e">
 	</div>
 	<div class="mb-3">
-	  <label for="p" class="form-label">pwd</label>
-	  <input type="password" class="form-control"  name="pwd" id="p">
-	</div>
-	<div class="mb-3">
-	  <label for="n" class="form-label">닉네임</label>
-	  <input type="text" class="form-control"  name="nickName" id="n">
+	  <label for="p" class="form-label">PASSWORD</label>
+	  <input type="password" class="form-control"  name="pw" id="p">
 	</div>
 	<button class="w-100 btn btn-primary btn-lg my-5" type="submit">가입입력</button>
 </form>
