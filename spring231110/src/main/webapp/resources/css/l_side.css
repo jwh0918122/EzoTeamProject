@@ -1,59 +1,45 @@
-html, body {
-	height: 100%;
-	margin: 0;
-}
-
-a {
-	text-decoration: none;
-}
-
-body {
+/* 사이드 메뉴바(왼쪽) */
+.pro_img {
 	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	margin: 0;
+	border: 1px solid #bcbcbc;
+	width: 100px;
+	height: 100px;
 }
 
-nav {
-	background-color: white;
-	height: 10%;
-/* 	border-bottom: 1px solid black; */
-	color: rgb(19, 151, 213);
-	padding: 10px;
-	position: fixed;
-	width: 100%;
-	z-index: 999;
+.pro_img>img {
+	border-radius: 50%;
 }
 
-/* 사이드 메뉴바(오른쪽) */
-.right_sidemenu_div {
+.left_sidemenu_div {
 	width: 12%;
 	min-height: 100vh;
 	background: linear-gradient(to bottom, rgb(19, 151, 213), #1674a1);
 	z-index: 1000;
 	position: fixed;
-/* 	top: 5%; */
+	/* 	top: 5%; */
 }
 
-.right_sidemenu {
+.left_sidemenu {
 	overflow: hidden;
 	list-style: none;
 	padding: 0;
 }
 
-.right_sidemenu>li {
+.left_sidemenu>li {
+	text-decoration: none;
 	width: 100%;
 	text-align: center;
 	line-height: 40px;
 	transition: background-color 0.5s ease;
 }
 
-.right_sidemenu a {
+.left_sidemenu a {
+	text-decoration: none;
 	color: #fff;
 	display: block;
 }
 
-/* .right_sidemenu .submenu a {
+/* .left_sidemenu .submenu a {
   color: #fff;
   display: block;
   color: rgb(19, 151, 213)
@@ -63,11 +49,11 @@ nav {
 	background-color: rgb(22, 116, 161);
 }
 
-.right_sidemenu>li:hover {
+.left_sidemenu>li:hover {
 	overflow: hidden;
 }
 
-.right_sidemenu>li:hover .submenu {
+.left_sidemenu>li:hover .submenu {
 	height: auto;
 }
 
@@ -82,4 +68,3 @@ nav {
 	padding: 0;
 	transition: height 0.5s ease;
 }
-

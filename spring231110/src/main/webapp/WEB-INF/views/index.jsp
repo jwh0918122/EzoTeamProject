@@ -19,22 +19,24 @@
 
 <!-- css 관련 설정-->
 
+<<<<<<< HEAD
 <link href="<c:url value='/resources/css/r_side.css'/>" rel="stylesheet"
 	type="text/css">
+=======
+
+>>>>>>> 240dea93706f27f00c2a54784d7097b8d610ce10
 
 
 <link href="<c:url value='/resources/css/index_all.css'/>" rel="stylesheet"
 	type="text/css">
 
 
-<link href="<c:url value='/resources/css/footer.css'/>" rel="stylesheet"
-	type="text/css">
 
 </head>
 
 
 <body>
-<jsp:include page="common/r_side.jsp" />
+<jsp:include page="common/l_side.jsp" />
 
 <jsp:include page="common/nav.jsp" />
 
