@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -29,5 +28,3 @@
 	</nav>
 </body>
 </html>
-=======
->>>>>>> aaa7550fcc821f0694e0979f1da53427d56f4c36

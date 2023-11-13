@@ -1,15 +1,9 @@
 INDEX VERSION 1.4+D:\_spring_workspace\Project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-<<<<<<< HEAD
 927499874.index
-=======
->>>>>>> aaa7550fcc821f0694e0979f1da53427d56f4c36
 3860270935.index
 3318360175.index
 4081747911.index
 3059053974.index
 2587306186.index
-<<<<<<< HEAD
 2722106443.index
-=======
->>>>>>> aaa7550fcc821f0694e0979f1da53427d56f4c36
 717047892.index
