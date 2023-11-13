@@ -22,12 +22,12 @@
 		<h4>로그인JSP입니다.</h4>
 		<h4 class="mb-3">Custom Login Page</h4>
 		<div class="mb-3">
-		  <label for="e" class="form-label">email</label>
-		  <input type="email" class="form-control" name="email" id="e" placeholder="example@example.com">
+		  <label for="e" class="form-label">ID</label>
+		  <input type="text" class="form-control" name="id" id="e">
 		</div>
 		<div class="mb-3">
-		  <label for="p" class="form-label">pwd</label>
-		  <input type="password" class="form-control"  name="pwd" id="p">
+		  <label for="p" class="form-label">PASSWORD</label>
+		  <input type="password" class="form-control" name="pw" id="p">
 		</div>
 <%-- 		${param.errMsg} --%>
 		<c:if test="${not empty param.errMsg }">

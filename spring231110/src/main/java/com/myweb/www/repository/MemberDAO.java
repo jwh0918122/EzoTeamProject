@@ -10,7 +10,7 @@ public interface MemberDAO {
 
 	int insertMember(MemberVO mvo);
 
-	int insertAuthInit(String email);
+	int insertAuthInit(String id);
 
 	MemberVO selectEmail(String username);
 
@@ -34,5 +34,7 @@ public interface MemberDAO {
 	MemberVO selectOne2(String email);
 
 	int getTotalCount(PagingVO pagingVO);
+
+	int getMemberNo(String id);
 
 }

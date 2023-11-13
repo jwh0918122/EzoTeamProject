@@ -52,7 +52,7 @@
 				</ul></li>
 			<li><a href="#">승인</a>
 				<ul class="submenu">
-					<li><a href="#">동호회 등록</a></li>
+					<li><a href="/approval/clubApproval">동호회 등록</a></li>
 					<li><a href="#">차량 등록</a></li>
 					<li><a href="#">사원 등록</a></li>
 					<li><a href="#">사원 목록</a></li>
@@ -60,7 +60,7 @@
 				</ul></li>
 			<li><a href="#">MENU5</a>
 				<ul class="submenu">
-					<li><a href="#">submenu01</a></li>
+					<li><a href="/member/register">회원가입</a></li>
 					<li><a href="#">submenu02</a></li>
 					<li><a href="#">submenu03</a></li>
 					<li><a href="#">submenu04</a></li>

@@ -75,8 +75,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		//커스텀 로그인 페이지를 구성   (로그인은 어떻게 할건지 설정)
 		// Controller의  주소요청 맵핑도 같이 꼭 적어줘야함(.loginPage("/member/login"))
 		http.formLogin()
-		.usernameParameter("email")
-		.passwordParameter("pwd")
+		.usernameParameter("id")
+		.passwordParameter("pw")
 		.loginPage("/member/login")
 		.successHandler(authSuccessHandler())
 		.failureHandler(authFailureHandler());

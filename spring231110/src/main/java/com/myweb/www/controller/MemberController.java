@@ -43,7 +43,7 @@ public class MemberController {
 	
 	@PostMapping("/register")
 	public String register(MemberVO mvo) {
-		mvo.setPwd(bcEncoder.encode(mvo.getPwd())); //암호화해서 넣음
+		mvo.setPw(bcEncoder.encode(mvo.getPw())); //암호화해서 넣음
 		log.info(">>>>register >> mvo{} >" +mvo);
 		int isOk = msv.register(mvo);
 		return "index";
@@ -131,12 +131,12 @@ public class MemberController {
 		log.info("2222222222222222222222");
 		int isOk = 3;
 //		log.info("mvo.getPwd().isEmpty()의 값 "+mvo.getPwd().isEmpty());
-		if(mvo.getPwd()==null||mvo.getPwd().isEmpty()) {
+		if(mvo.getPw()==null||mvo.getPw().isEmpty()) {
 			log.info("if(mvo.getPwd().isEmpty())"+"진입");
 			isOk = msv.modifyPwdEmpty(mvo);
 		}else {
 			log.info("mvo.getPwd().isEmpty()의 else{}"+"진입");
-			mvo.setPwd(bcEncoder.encode(mvo.getPwd()));
+			mvo.setPw(bcEncoder.encode(mvo.getPw()));
 			isOk = msv.modify(mvo);
 		}
 		log.info("if문 지난 위치");
