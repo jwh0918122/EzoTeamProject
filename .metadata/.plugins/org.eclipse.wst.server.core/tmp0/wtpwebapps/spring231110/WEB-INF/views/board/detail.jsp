@@ -16,8 +16,6 @@
 </style>
 </head>
 <body>
-
-테스트
 	<jsp:include page="../common/header.jsp" />
 	<jsp:include page="../common/nav.jsp" />
 	<div class="bigBox">
