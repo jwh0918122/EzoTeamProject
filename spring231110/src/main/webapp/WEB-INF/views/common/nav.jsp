@@ -10,16 +10,21 @@
 <meta charset="UTF-8">
 <title>navBar</title>
 
+<link href="<c:url value='/resources/css/nav.css'/>" rel="stylesheet"
+	type="text/css">
+
 </head>
 <body>
 
-		<!-- nav -->
-		<nav>
-			<div class="c_logo">
-				<img alt="회사로고 없음" src="../../resources/img/회사로고.jpg">
-
-			</div>
-
-		</nav>
+	<!-- nav -->
+	<nav class=".nav_header">
+	<a href="index">
+		<div class="c_logo">
+			 <img alt="회사로고 없음"
+				src="../../resources/img/회사로고.jpg">
+		
+		</div>
+	</a>
+	</nav>
 </body>
 </html>
