@@ -10,10 +10,6 @@
 <meta charset="UTF-8">
 <title>navBar</title>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 240dea93706f27f00c2a54784d7097b8d610ce10
 <link href="<c:url value='/resources/css/nav.css'/>" rel="stylesheet"
 	type="text/css">
 
