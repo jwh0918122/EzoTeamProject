@@ -15,10 +15,7 @@
 
 	<footer>
 		<p>&copy; 2023 Your Company. All Rights Reserved.</p>
-		<div class="footer-links">
-			<a href="#">Home</a> <a href="#">About Us</a> <a href="#">Services</a>
-			<a href="#">Contact</a>
-		</div>
+		
 	</footer>
 
 </body>
