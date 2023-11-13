@@ -24,8 +24,8 @@ public class MemberVO {
 //	last_login datetime default null,
 //	primary key(email));
 
-	private String email;
-	private String pwd;
+	private String id;
+	private String pw;
 	private String nickName;
 	private String regAt;
 	private String lastLogin;

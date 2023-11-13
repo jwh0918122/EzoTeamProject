@@ -18,7 +18,7 @@ public class AuthVO {
 //	auth varchar(50) not null,
 //	primary key(email));
 
-	private String email;
+	private String id;
 	private String auth;
 	
 	
