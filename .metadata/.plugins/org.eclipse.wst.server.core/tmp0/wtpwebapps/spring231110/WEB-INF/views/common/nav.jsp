@@ -18,13 +18,11 @@
 
 	<!-- nav -->
 	<nav class=".nav_header">
-	<a href="index">
-		<div class="c_logo">
-			 <img alt="회사로고 없음"
-				src="../../resources/img/회사로고.jpg">
-		
-		</div>
-	</a>
+		<a href="index">
+			<div class="c_logo">
+				<img alt="회사로고 없음" src="../../resources/img/회사로고.jpg">
+			</div>
+		</a>
 	</nav>
 </body>
 </html>
