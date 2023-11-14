@@ -61,18 +61,13 @@
 			<li><a href="#">MENU5</a>
 				<ul class="submenu">
 					<li><a href="/member/register">회원가입</a></li>
-					<li><a href="#">submenu02</a></li>
-					<li><a href="#">submenu03</a></li>
+					<li><a href="/member/login">로그인</a></li>
+					<li><a href="/member/logout">로그아웃</a></li>
 					<li><a href="#">submenu04</a></li>
 					<li><a href="#">submenu05</a></li>
 				</ul></li>
 		</ul>
-
 	</div>
-
-
-
-
 
 
 </body>
