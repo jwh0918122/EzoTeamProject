@@ -1,3 +1,7 @@
 #Tomcat publish data
+<<<<<<< HEAD
 #Tue Nov 14 18:00:35 KST 2023
+=======
+#Tue Nov 14 17:01:43 KST 2023
+>>>>>>> c2b069fd93f215fcd86412a92af079a7257935d8
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\EZENIC-164\\.m2\\repository\\org\\springframework\\spring-web\\5.3.10\\spring-web-5.3.10.jar=WEB-INF/lib/spring-web-5.3.10.jar

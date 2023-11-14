@@ -11,8 +11,8 @@ CREATE TABLE `board` (
   `type` varchar(20) NOT NULL,
   `club_cd` varchar(100) DEFAULT NULL,
   `dep_cd` varchar(100) DEFAULT NULL,
-  `cmt_cnt` int(11) DEFAULT '0',
-  `read_cnt` int(11) DEFAULT '0',
+  `cmt_qty` int(11) DEFAULT '0',
+  `read_qty` int(11) DEFAULT '0',
   PRIMARY KEY (`dep_bno`)
 )
 
