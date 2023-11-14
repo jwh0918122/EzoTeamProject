@@ -19,8 +19,8 @@
 
 <!-- css 관련 설정-->
 
-
-
+<link href="<c:url value='/resources/css/r_side.css'/>" rel="stylesheet"
+	type="text/css">
 
 <link href="<c:url value='/resources/css/index_all.css'/>"
 	rel="stylesheet" type="text/css">
