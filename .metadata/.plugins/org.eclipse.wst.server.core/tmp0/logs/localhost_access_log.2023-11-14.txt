@@ -7477,3 +7477,11 @@
 0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/r_side.css HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/l_side.css HTTP/1.1" 200 1126
 0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/index_all.css HTTP/1.1" 200 134
+127.0.0.1 - - [14/Nov/2023:19:00:14 +0900] "GET / HTTP/1.1" 200 3080
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET / HTTP/1.1" 200 3080
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/css/r_side.css HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/css/index_all.css HTTP/1.1" 200 134
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/css/nav.css HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/css/l_side.css HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/css/footer.css HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:19:00:14 +0900] "GET /resources/img/%ED%9A%8C%EC%82%AC%EB%A1%9C%EA%B3%A0.jpg HTTP/1.1" 200 47530
