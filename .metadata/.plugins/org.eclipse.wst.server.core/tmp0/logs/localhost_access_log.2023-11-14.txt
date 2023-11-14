@@ -7461,3 +7461,19 @@
 0:0:0:0:0:0:0:1 - - [14/Nov/2023:17:06:16 +0900] "GET /member/login HTTP/1.1" 200 1841
 0:0:0:0:0:0:0:1 - - [14/Nov/2023:17:06:16 +0900] "GET /resources/css/footer.css HTTP/1.1" 200 279
 >>>>>>> c2b069fd93f215fcd86412a92af079a7257935d8
+127.0.0.1 - - [14/Nov/2023:18:58:07 +0900] "GET / HTTP/1.1" 200 3080
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:07 +0900] "GET / HTTP/1.1" 200 3080
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/css/r_side.css HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/css/nav.css HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/img/%ED%9A%8C%EC%82%AC%EB%A1%9C%EA%B3%A0.jpg HTTP/1.1" 200 47530
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/css/footer.css HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/css/index_all.css HTTP/1.1" 200 134
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:08 +0900] "GET /resources/css/l_side.css HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:10 +0900] "GET /member/register HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:10 +0900] "GET /resources/css/register.css HTTP/1.1" 200 1373
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET / HTTP/1.1" 200 3080
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/nav.css HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/footer.css HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/r_side.css HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/l_side.css HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [14/Nov/2023:18:58:23 +0900] "GET /resources/css/index_all.css HTTP/1.1" 200 134

@@ -1,3 +1,5 @@
+
+    
     <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -14,8 +16,12 @@
 </head>
 <body>
 <!--왼쪽 사이드 메뉴  -->
-	<div class="left_sidemenu_div">	
-		<ul class="left_sidemenu">	
+	<div class="left_sidemenu_div">
+	
+	
+		<ul class="left_sidemenu">
+		
+		
 			<li>
 			<div class="pro_img">
 			<img alt="프로필 사진 없음" src="">
@@ -55,21 +61,19 @@
 			<li><a href="#">MENU5</a>
 				<ul class="submenu">
 					<li><a href="/member/register">회원가입</a></li>
-					<li><a href="/member/login">로그인</a></li>
-					<li><a href="/member/logout">로그아웃</a></li>
-<<<<<<< HEAD
+					<li><a href="#">submenu02</a></li>
+					<li><a href="#">submenu03</a></li>
 					<li><a href="#">submenu04</a></li>
-=======
-					<li><a href="/member/remove">회원탈퇴</a></li>
->>>>>>> c2b069fd93f215fcd86412a92af079a7257935d8
 					<li><a href="#">submenu05</a></li>
 				</ul></li>
 		</ul>
+
 	</div>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> c2b069fd93f215fcd86412a92af079a7257935d8
+
+
+
+
 </body>
 </html>

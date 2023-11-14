@@ -17,14 +17,11 @@
 <link href="../resources/css/register.css" rel="stylesheet">
 </head>
 <body>
-	<!-- nav -->
-	<jsp:include page="../common/nav.jsp" />
 
-	<!-- 회원가입 폼 -->
 	<div class="jb-container">
 		<form action="/member/register" method="post" enctype="multipart/form-data">
 			<div id="test">
-				<select class="selectBox" name="depCd"
+				<select class="selectInput" name="depCd"
 					aria-label="Default select example">
 					<option selected>부서 선택</option>
 					<option value="sales">영업</option>
@@ -59,6 +56,7 @@
 					placeholder="birth(6자리)">
 			</div>
 
+
 			<div class="mb-3">
 				<label for="f" class="form-label">프로필 이미지</label> <input
 					class="form-control" type="file" id="f" name="profiles">
@@ -67,11 +65,9 @@
 			<div class="btnContainer">
 				<button type="submit" class="joinBtn">사원 등록</button>
 			</div>
+
 		</form>
+
 	</div>
-
-	<!-- footer -->
-	<jsp:include page="../common/footer.jsp" />
-
 </body>
 </html>
