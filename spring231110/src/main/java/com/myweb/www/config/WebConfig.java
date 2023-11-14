@@ -25,7 +25,7 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 	@Override
 	protected String[] getServletMappings() {
 		// TODO Auto-generated method stub
-		return new String[] { "/" };
+		return new String[] { "/member/login" };
 	}
 
 	@Override
